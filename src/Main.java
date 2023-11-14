@@ -10,7 +10,7 @@ public class Main {
         System.out.println("5.Berreketa      6.Hondarra");
         int eragiketa = sc.nextInt();
 
-        if (eragiketa >= 7 || eragiketa == 0){
+        if (eragiketa >= 7 || eragiketa == 0) {
             System.out.println("Sartu duzun aukera ez da egokia.");
             System.exit(0);
         }
@@ -24,18 +24,25 @@ public class Main {
 
         double guztira = 0;
 
-        if (eragiketa ==1){
+        if (eragiketa == 1) {
             guztira = zenbakia1 + zenbakia2;
-        } else if (eragiketa ==2) {
+        } else if (eragiketa == 2) {
             guztira = zenbakia1 - zenbakia2;
-        } else if (eragiketa ==3) {
+        } else if (eragiketa == 3) {
             guztira = zenbakia1 * zenbakia2;
         } else if (eragiketa == 4) {
-            if (zenbakia1 ==0 || zenbakia2 == 0){
+            if (zenbakia1 == 0 || zenbakia2 == 0) {
                 System.out.println("Ezin da zati 0 egin");
                 System.exit(0);
             }
+        } else if (eragiketa == 5) {
+            guztira = Math.pow(zenbakia1, zenbakia2);
             guztira = zenbakia1 / zenbakia2;
 
+        } else if (eragiketa == 6) {
+            guztira = zenbakia1 % zenbakia2;
+        }
+
+        System.out.println("Erantzuna: "+guztira);
     }
 }
