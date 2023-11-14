@@ -28,6 +28,8 @@ public class Main {
             guztira = zenbakia1 + zenbakia2;
         } else if (eragiketa ==2) {
             guztira = zenbakia1 - zenbakia2;
+        } else if (eragiketa ==3) {
+            guztira = zenbakia1 * zenbakia2;
 
     }
 }
