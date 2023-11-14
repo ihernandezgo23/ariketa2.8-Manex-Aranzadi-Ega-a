@@ -22,5 +22,10 @@ public class Main {
         sc.close();
 
 
+        double guztira = 0;
+
+        if (eragiketa ==1){
+            guztira = zenbakia1 + zenbakia2;
+
     }
 }
