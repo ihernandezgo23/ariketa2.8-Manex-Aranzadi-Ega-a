@@ -10,6 +10,16 @@ public class Main {
         System.out.println("5.Berreketa      6.Hondarra");
         int eragiketa = sc.nextInt();
 
+        if (eragiketa >= 7 || eragiketa == 0){
+            System.out.println("Sartu duzun aukera ez da egokia.");
+            System.exit(0);
+        }
+
+        System.out.println("Sartu lehen zenbakia (hamartarra izan daiteke):");
+        double zenbakia1 = sc.nextDouble();
+        System.out.println("Sartu bigarren zenbakia (hamartarra izan daiteke):");
+        double zenbakia2 = sc.nextDouble();
+        sc.close();
 
 
     }
