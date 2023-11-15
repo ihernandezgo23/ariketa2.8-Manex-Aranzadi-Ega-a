@@ -21,7 +21,7 @@ public class Main {
         double zenbakia2 = sc.nextDouble();
         sc.close();
 
-
+        //Erantzuna
         double guztira = 0;
 
         if (eragiketa == 1) {
