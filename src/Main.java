@@ -24,6 +24,7 @@ public class Main {
         //Erantzuna
         double guztira = 0;
 
+        //Menua
         if (eragiketa == 1) {
             guztira = zenbakia1 + zenbakia2;
         } else if (eragiketa == 2) {
