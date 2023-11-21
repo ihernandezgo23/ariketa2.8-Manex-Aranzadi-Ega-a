@@ -44,7 +44,7 @@ public class Main {
         } else if (eragiketa == 6) {
             guztira = zenbakia1 % zenbakia2;
         }
-
+        //Imprimatzeko
         System.out.println("Erantzuna: "+guztira);
     }
 }
