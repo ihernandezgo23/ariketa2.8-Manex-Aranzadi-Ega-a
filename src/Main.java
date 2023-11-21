@@ -23,7 +23,7 @@ public class Main {
 
         //Erantzuna
         double guztira = 0;
-        // Hau gaizki dago
+        // menuaren hasiera
         //Menua
         if (eragiketa == 1) {
             guztira = zenbakia1 + zenbakia2;
